@@ -5,6 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+  <img src="<?= BASE_URL ?>megacomic.png" alt="Logo MegaComic" class="navbar-brand me-3" style="width: 40px; height: 40px;">
   <a class="navbar-brand text-warning" href="<?= BASE_URL ?>index.php">MegaComic</a>
 
   <form class="d-flex ms-auto" action="search.php" method="get">
